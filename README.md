@@ -132,13 +132,13 @@ npm update
 Explanation for each field:
 ```javascript
 /* Used for storage in redis so multiple coins can share the same redis instance. */
-"coin": "ducknote",
+"coin": "Aeon",
 
 /* Used for front-end display */
-"symbol": "XDN",
+"symbol": "AEON",
 
 /* Minimum units in a single coin, see COIN constant in DAEMON_CODE/src/cryptonote_config.h */
-"coinUnits": 100000000,
+"coinUnits": 1000000000000,
 
 /* Coin network time to mine one block, see DIFFICULTY_TARGET constant in DAEMON_CODE/src/cryptonote_config.h */
 "coinDifficultyTarget": 240,
